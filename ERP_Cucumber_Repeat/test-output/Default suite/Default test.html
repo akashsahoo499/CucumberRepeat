@@ -1,0 +1,679 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/10</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 06 12:56:56 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>19 seconds (19145 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-869005911" onClick='toggleBox("Output-869005911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-869005911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-869005911">
+<div "result">Users launch Browser (PASSED : 2s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Akhilesh1&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet13&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Supplier number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace869005911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace869005911'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div></td>
+<td>2</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-899675353" onClick='toggleBox("Output-899675353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-899675353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-899675353">
+<div "result">Users launch Browser (PASSED : 1s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Akhilesh14&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet15&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Supplier number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace899675353", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace899675353'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div></td>
+<td>1</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-229329107" onClick='toggleBox("Output-229329107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-229329107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-229329107">
+<div "result">Users launch Browser (PASSED : 1s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Akhilesh16&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet41&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Supplier number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace229329107", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace229329107'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div></td>
+<td>1</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-795156371" onClick='toggleBox("Output-795156371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-795156371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-795156371">
+<div "result">Users launch Browser (PASSED : 1s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Akhilesh17&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet111&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Supplier number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace795156371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace795156371'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div></td>
+<td>1</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-155140910" onClick='toggleBox("Output-155140910", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-155140910" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-155140910">
+<div "result">Users launch Browser (PASSED : 1s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Akhilesh12&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet100&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Supplier number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace155140910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace155140910'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+</pre></div></td>
+<td>1</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-1619773688" onClick='toggleBox("Output-1619773688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1619773688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1619773688">
+<div "result">Users launch Browser (PASSED : 1s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ramuandranga13&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Kukatpalli51&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet15&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Customer number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1619773688", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1619773688'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div></td>
+<td>1</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-356005505" onClick='toggleBox("Output-356005505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-356005505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-356005505">
+<div "result">Users launch Browser (PASSED : 1s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ramuandranga14&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Kukatpalli41&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet17&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Customer number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div><a href='#' onClick='toggleBox("stack-trace356005505", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace356005505'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div></td>
+<td>1</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-243596165" onClick='toggleBox("Output-243596165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-243596165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-243596165">
+<div "result">Users launch Browser (PASSED : 1s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ramuandranga15&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Kukatpalli51&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet51&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Customer number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div><a href='#' onClick='toggleBox("stack-trace243596165", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace243596165'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div></td>
+<td>2</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-1850680894" onClick='toggleBox("Output-1850680894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1850680894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1850680894">
+<div "result">Users launch Browser (PASSED : 1s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ramuandranga14&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Kukatpalli61&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet71&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Customer number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1850680894", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1850680894'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div></td>
+<td>1</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+<tr>
+<td title='testRunner.AppTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.AppTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-2070372626" onClick='toggleBox("Output-2070372626", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2070372626" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2070372626">
+<div "result">Users launch Browser (PASSED : 2s)</div><br/>
+<div "result">user launch Url (FAILED : 0s)</div><br/>
+<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div><br/>
+<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div><br/>
+<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div><br/>
+<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ramuandranga112&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Kukatpalli231&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;Ameerpet41&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div><br/>
+<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div><br/>
+<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div><br/>
+<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div><br/>
+<div "result">Validate Customer number (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2070372626", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2070372626'><pre>java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+</pre></div></td>
+<td>2</td>
+<td>testRunner.AppTest@65a15628</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-skipped">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\akash\AppData\Local\Temp\testng-eclipse--1677428994\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,  10 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunner.AppTest" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;&quot;)">runScenario("", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testRunner.AppTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;&quot;)">
+                  </a> <!-- runScenario("", "") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+	at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+	at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\akash\AppData\Local\Temp\testng-eclipse--1677428994\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testRunner.AppTest&quot;/&gt;
+      &lt;class name=&quot;stepDefinition.StepDefinitions&quot;/&gt;
+      &lt;class name=&quot;commonFunctions.FunctionLibrary&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'testRunner.AppTest')
+data.setCell(0, 3, 2727);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'testRunner.AppTest')
+data.setCell(1, 3, 2243);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'testRunner.AppTest')
+data.setCell(2, 3, 2006);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'testRunner.AppTest')
+data.setCell(3, 3, 1928);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'testRunner.AppTest')
+data.setCell(4, 3, 1727);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'testRunner.AppTest')
+data.setCell(5, 3, 1702);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'testRunner.AppTest')
+data.setCell(6, 3, 1685);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'testRunner.AppTest')
+data.setCell(7, 3, 1525);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'testRunner.AppTest')
+data.setCell(8, 3, 1461);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'testRunner.AppTest')
+data.setCell(9, 3, 1441);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Akhilesh12&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet100&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Supplier number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ramuandranga15&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Kukatpalli51&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet51&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Customer number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ramuandranga14&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Kukatpalli61&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet71&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Customer number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ramuandranga13&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Kukatpalli51&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet15&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Customer number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ramuandranga112&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Kukatpalli231&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet41&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Customer number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Akhilesh14&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet15&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Supplier number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Akhilesh17&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet111&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Supplier number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Akhilesh16&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet41&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Supplier number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ramuandranga14&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Kukatpalli41&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet17&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Customer number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("", "")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">Users launch Browser (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">user launch Url (FAILED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Akhilesh1&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Ameerpet13&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Validate Supplier number (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">close browser (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testRunner.AppTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">2626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">4095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">5626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">7069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">8785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">10518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">12213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">14260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("", "")</span>
+                <span class="method-start">16189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">18919 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

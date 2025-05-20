@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="0" failed="0" skipped="10">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Akhilesh1&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet13&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Akhilesh14&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet15&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Akhilesh16&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet41&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Akhilesh17&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet111&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Akhilesh12&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet100&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ramuandranga13&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Kukatpalli51&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet15&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ramuandranga14&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Kukatpalli41&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet17&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ramuandranga15&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Kukatpalli51&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet51&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ramuandranga14&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Kukatpalli61&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet71&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Users launch Browser (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ramuandranga112&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Kukatpalli231&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;Ameerpet41&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-06T07:26:56Z" name="Default suite" finished-at="2025-05-06T07:27:16Z" duration-ms="19145">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-05-06T07:26:56Z" name="Default test" finished-at="2025-05-06T07:27:16Z" duration-ms="19145">
+      <class name="testRunner.AppTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:26:57Z" name="setUpClass" finished-at="2025-05-06T07:26:57Z" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:26:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:26:59Z" duration-ms="2243" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Akhilesh1&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet13&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:26:59Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:27:01Z" duration-ms="1461" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Akhilesh14&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet15&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:27:01Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:27:02Z" duration-ms="1525" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Akhilesh16&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet41&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:27:02Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:27:04Z" duration-ms="1441" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Akhilesh17&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet111&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:27:04Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:27:05Z" duration-ms="1702" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;password&#x27;]&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Supplier link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[contains(.,&#x27;Suppliers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Supplier number with &quot;name&quot; and &quot;x_Supplier_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Akhilesh12&quot; with &quot;name&quot; and &quot;x_Supplier_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet100&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Hyderabad1&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Qedge1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2145698745&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Test@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;5478954789&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Iam new Supplier&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Supplier number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:27:05Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:27:07Z" duration-ms="1727" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ramuandranga13&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Kukatpalli51&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet15&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:27:07Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:27:09Z" duration-ms="1685" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ramuandranga14&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Kukatpalli41&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet17&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:27:09Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:27:11Z" duration-ms="2006" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ramuandranga15&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Kukatpalli51&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet51&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:27:11Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:27:13Z" duration-ms="1928" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ramuandranga14&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Kukatpalli61&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet71&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:27:13Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-06T07:27:15Z" duration-ms="2727" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1364)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at commonFunctions.FunctionLibrary.openUrl(FunctionLibrary.java:50)
+at stepDefinition.StepDefinitions.user_launch_Url(StepDefinitions.java:20)
+at ✽.user launch Url(FeatureFiles/ERP.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Users launch Browser (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch Url (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for username with &quot;xpath&quot; and &quot;&#x2F;&#x2F;input[@id=&#x27;username&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter user name with &quot;name&quot; and &quot;username&quot; and &quot;admin&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter password with &quot;xpath&quot; and &quot;&quot; and &quot;master&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click login button with &quot;id&quot; and &quot;btnsubmit&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for logout link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27; Logout&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate Title with &quot;Dashboard « Stock Accounting&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Customer link with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;a[starts-with(text(),&#x27;Customers&#x27;)])[2]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Add icon with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click Add Icon &quot;xpath&quot; and &quot;(&#x2F;&#x2F;span[@data-caption=&#x27;Add&#x27;])[1]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Capture Customer number with &quot;name&quot; and &quot;x_Customer_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ramuandranga112&quot; with &quot;name&quot; and &quot;x_Customer_Name&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Kukatpalli231&quot; with &quot;name&quot; and &quot;x_Address&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;Ameerpet41&quot; with &quot;name&quot; and &quot;x_City&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;India&quot; with &quot;name&quot; and &quot;x_Country&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;QedgeTech1&quot; with &quot;name&quot; and &quot;x_Contact_Person&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;2456987456&quot; with &quot;name&quot; and &quot;x_Phone_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;ranga@gmail.com&quot; with &quot;name&quot; and &quot;x__Email&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;7896541236&quot; with &quot;name&quot; and &quot;x_Mobile_Number&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter in &quot;iam new Customer1&quot; with &quot;name&quot; and &quot;x_Notes&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Add button with &quot;id&quot; and &quot;btnAction&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Confirm Ok button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Confirm Ok with &quot;xpath&quot; and &quot;&#x2F;&#x2F;button[normalize-space()=&#x27;OK!&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Wait for Alert Ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; and &quot;10&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click Alert ok button with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;button[starts-with(text(),&#x27;OK&#x27;)])[6]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Validate Customer number (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.AppTest@65a15628]" started-at="2025-05-06T07:27:15Z" name="tearDownClass" finished-at="2025-05-06T07:27:16Z" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
